@@ -1,0 +1,62 @@
+[
+  {
+    "round": 1,
+    "n_attacks": 15,
+    "n_success": 4,
+    "ASR": 0.26666666666666666
+  },
+  {
+    "round": 2,
+    "n_attacks": 12,
+    "n_success": 5,
+    "ASR": 0.4166666666666667
+  },
+  {
+    "round": 3,
+    "n_attacks": 15,
+    "n_success": 11,
+    "ASR": 0.7333333333333333
+  },
+  {
+    "round": 4,
+    "n_attacks": 20,
+    "n_success": 15,
+    "ASR": 0.75
+  },
+  {
+    "round": 5,
+    "n_attacks": 20,
+    "n_success": 9,
+    "ASR": 0.45
+  },
+  {
+    "round": 6,
+    "n_attacks": 20,
+    "n_success": 13,
+    "ASR": 0.65
+  },
+  {
+    "round": 7,
+    "n_attacks": 20,
+    "n_success": 15,
+    "ASR": 0.75
+  },
+  {
+    "round": 8,
+    "n_attacks": 20,
+    "n_success": 10,
+    "ASR": 0.5
+  },
+  {
+    "round": 9,
+    "n_attacks": 20,
+    "n_success": 11,
+    "ASR": 0.55
+  },
+  {
+    "round": 10,
+    "n_attacks": 20,
+    "n_success": 14,
+    "ASR": 0.7
+  }
+]
