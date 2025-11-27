@@ -1,4 +1,4 @@
-Evolutionary Jailbreaking Benchmark
+## Evolutionary Jailbreaking Benchmark
 
 This repository implements an evolutionary jailbreak attack pipeline for evaluating the safety robustness of large language models (LLMs). The included notebook runs iterative prompt mutation, evaluates multiple target models, and logs attack success statistics and visualizations.
 
