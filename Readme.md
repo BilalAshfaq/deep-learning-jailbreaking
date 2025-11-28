@@ -6,7 +6,7 @@ This repository implements an evolutionary jailbreak attack pipeline for evaluat
 
 Main File: evolutionary_jailbreaking.ipynb : The primary notebook. 
 
-It:
+It
 Loads jailbreak datasets (Hugging Face).
 Loads target models (Mistral and a LLaMA-based model).
 Loads safety classifier (LlamaGuard).
