@@ -75,8 +75,11 @@ For offline use, download the dataset manually from Hugging Face and place it in
 # 5. Running the Full Experiment
 
 Install dependencies
+
 Launch Jupyter
+
 Open evolutionary_jailbreaking.ipynb
+
 Optionally adjust:
 ROUNDS
 ATTACKS_PER_ROUND
@@ -84,4 +87,5 @@ SAMPLE_CAP
 DATASET_ID
 
 Run all cells
+
 Outputs will be saved under results/ and plots/.
