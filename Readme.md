@@ -2,7 +2,7 @@
 
 This repository implements an evolutionary jailbreak attack pipeline for evaluating the safety robustness of large language models (LLMs). The included notebook runs iterative prompt mutation, evaluates multiple target models, and logs attack success statistics and visualizations.
 
-1. Repository Structure
+# 1. Repository Structure
 
 Main File: evolutionary_jailbreaking.ipynb : The primary notebook. 
 
@@ -22,18 +22,18 @@ content/ – temporary experiment files and model offloading.
 results/ – JSON logs: per-attack results, ASR per round, global summary.
 plots/ – generated charts (success counts, ASR curves, model comparisons).
 
-2. Dependencies & Installation
+# 2. Dependencies & Installation
 Core Dependencies
 
-Python ≥ 3.9
-PyTorch
-CUDA toolkit (optional but recommended)
-transformers
-datasets
-pandas
-numpy
-matplotlib
-jupyter
+Python ≥ 3.9,
+PyTorch,
+CUDA toolkit (optional but recommended),
+transformers,
+datasets,
+pandas,
+numpy,
+matplotlib,
+jupyter,
 Install (pip)
 python -m venv .venv
 source .venv/bin/activate
@@ -44,9 +44,9 @@ pip install transformers datasets pandas numpy matplotlib jupyter
 
 (Conda installation works similarly.)
 
-3. Demo Notebook (Sample Input/Output)
+# 3. Demo Notebook (Sample Input/Output)
 
-Use demo_evolutionary_jailbreaking.ipynb for a quick example run.
+Use evolutionary_jailbreaking.ipynb for a quick example run. Outputs for demo run are already provided in the repo.
 
 The demo:
 
@@ -56,7 +56,7 @@ Shows generated adversarial prompts and model responses
 Produces sample metrics and visualizations
 No configuration needed—just run all cells.
 
-4. Dataset Download Instructions
+# 4. Dataset Download Instructions
 
 This project uses publicly available jailbreak datasets from Hugging Face:
 JailbreakV-28K/JailBreakV-28k
@@ -72,7 +72,7 @@ ds = load_dataset("JailbreakV-28K/JailBreakV-28k", "JailBreakV_28K")
 
 For offline use, download the dataset manually from Hugging Face and place it in a data/ folder, then load from disk (JSON/CSV).
 
-5. Running the Full Experiment
+# 5. Running the Full Experiment
 
 Install dependencies
 Launch Jupyter
