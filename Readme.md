@@ -3,9 +3,10 @@
 This repository implements an evolutionary jailbreak attack pipeline for evaluating the safety robustness of large language models (LLMs). The included notebook runs iterative prompt mutation, evaluates multiple target models, and logs attack success statistics and visualizations.
 
 1. Repository Structure
-Main Files
-evolutionary_jailbreaking.ipynb : The primary notebook. It:
 
+Main File: evolutionary_jailbreaking.ipynb : The primary notebook. 
+
+It:
 Loads jailbreak datasets (Hugging Face).
 Loads target models (Mistral and a LLaMA-based model).
 Loads safety classifier (LlamaGuard).
